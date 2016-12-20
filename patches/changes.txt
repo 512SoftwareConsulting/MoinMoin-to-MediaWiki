@@ -1,0 +1,50 @@
+== A word of warning ==
+I have changed my previous ways of posting code:
+It's too much of a PITA to try to make the code display right when I'm nesting 2 & 3 special tags. So just look at the code of the page to figure out what needs to be changed.
+
+'''In other words''', don't use the DISPLAYED code for changes -- click "edit" and find the "Changes" section to figure out what to change.
+
+[[User:TylerDrake|TylerDrake]] 19:26, 14 Aug 2005 (UTC)
+
+== Code Blocks ==
+
+Moin syntax:<br>
+{{{<br>
+code is here<br>
+and here<br>
+look, '''other''' formatting doesn't get processed<br>
+}}}
+
+MediaWiki syntax:
+<pre>
+code is here
+and here
+look, '''other''' formatting doesn't get processed
+</pre>
+
+Changes:
+change {{{ to <pre><nowiki>
+and }}} to </nowiki></pre>
+
+
+== Inline code ==
+Moin syntax:
+some {{{ inline '''code''' }}} for you
+
+MW syntax:
+some <code><nowiki>inline '''code'''</nowiki></code> for you
+
+Changes:
+change {{{ to <code><nowiki>
+change }}} to </nowiki></code>
+
+
+== Underlining text ==
+MM syntax:
+__Underlined text__
+
+MW syntax:
+<u>Underlined text</u>
+
+Changes:
+change __ on either side to <u> and </u>, respectively

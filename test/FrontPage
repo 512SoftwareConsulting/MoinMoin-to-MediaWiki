@@ -1,0 +1,130 @@
+#acl Known:read,write All:read
+   ||<tablewidth="80%" #FFFFA0> [[RandomQuote(FortuneCookies)]]||
+= Welcome to MythTV.info! =
+
+We're here to provide a forum (a wiki, actually) for collaborative documentation of the [http://www.mythtv.org MythTV] project, an open source software PersonalVideoRecorder.  It lets you build a box similar to a TiVo or ReplayTV, but much more powerful - and easily modified.  Because it's a wiki, you can edit (almost) any page yourself if you find a mistake, or have more to add; see the WikiQuickStart for more details.
+
+Here's what's on the front page (or linked elsewhere):
+
+ * Latest Release
+ * News
+ * AboutThisSite
+  * What's here?
+  * How Official Are We?
+  * How to Contribute
+  * [wiki:WikiQuickStart What is a Wiki?]
+ * AboutMythTv
+  * Required HardWare & SoftWare
+  * InstallingMythtv
+  * UserManual
+ * [wiki:CategoryHowTo HOWTOs]
+ * Random Thoughts
+  * MythPeople
+  * ["MUG"] (Myth Users Group(s))
+  * A /CommentPage (for Q & A)
+
+----
+= Site To Move =
+It's official.  With the kind permission and help of Isaac, RichK (who's been maintaining the flat-file documentation within the releases), and David Greaves (who was kind enough to set up this wiki in the first place), mythtv.info's content will soon be moving to a slightly-less slashdottable (and more easily accessible, I gather) location, over at MythTV.org World Headquarters.  I've got a bunch of work to do first, including figuring out how to translate Moin pages to MediaWiki pages, and any help in the SiteMove will be greatly appreciated. [Baylink 15-Feb-05]
+
+----
+= New Release! =
+MythTV v0.17 was [http://www.mythtv.org/modules.php?name=News&file=article&sid=112 released] at 0545UTC on 11-February-2005.  Some information on the new features and fixed bugs in this release is available on the WhatsNew page.
+
+And the Slashdotting we took garnered us some new contributors.  Welcome aboard, folks, and please migrate with us to the new site when we move there.
+----
+= News =
+
+'''New Release''' -- 0.17 is out.  The UnderDevelopment page has been moved to WhatsNew, and copied to ["0.17"] in the ReleaseNotes section.  Isaac has linked to UnderDevelopment from mythtv.org, so that will remain 0.17 until he changes the link.  [BayLink 11-Feb-05]
+
+ (Site note: I'd like to thank BrianLeFevre and the other folks who are doing yeoman duty reverting the spammers who have clearly recently found the site.  BayLink)
+
+'''Myth``Blog''' -- It has managed to escape me that GavinHurlbut (Beirdo@IRC) has his own [http://mythtv.beirdo.ca/wiki/ FAQ Wiki], covering topics frequently discussed on IRC, as well as writing a [http://mythtv.beirdo.ca/blog/ blog] concerning his experiences working with Myth.  In other news, (I've always wanted to say that :-) Matt Haughey, of Metafilter fame, continues his [http://www.pvrblog.com/ PVRBlog] with coverage of a 10-tuner SnapStream box built with the new Hauppauge 500 cards. [BayLink 10-Feb-2005]
+
+'''User Manual''' -- I've added a link, above, to my nascent UserManual project.  While it is even more a work in progress than some other things associated with the wiki, and indeed, Myth itself, I think it's just barely fleshed out to the point that it's time to link to it from somewhere more prominent than my User page.  All contributions, as always, welcome.  [BayLink 09-Feb-2005]
+
+'''German Wiki''' -- I've felt free to create a german Wiki, since some users expressed the wish to have a German community. Please not that this Wiki doesn't intend to compete with MythTV.info. The site is [http://de-mythwiki.ath.cx/mediawiki/ here] . In addition, there is a now a German subforum at [http://www.mythtvtalk.com mythtvtalk.com]. [MichaelHaas]
+
+'''New York Times MythTV''' -- [http://www.nytimes.com/2005/01/30/arts/television/30manl.html?ex=1264741200&en=e82b9db497df2928&ei=5090&partner=rssuserland The New York Times] has an article on Isaac and MythTV. [JohnSturgeon 31-Jan-05]
+Some MythTV users think that this article is bad publicity for MythTV. If you agree, you probably want to sign [http://www.sphereux.com/mythtv-nyt/ this petition] [MichaelHaas 01-Feb-05]
+
+[ That is much too polite: the article damned near explicitly lumps MythTV users in with show-sharers.  Regardless your opinion on show-sharing, the piece is misleading, and I suggest you sign the petition. BayLink ]
+
+'''Slashdot on Linux on PVR's''' -- The [http://linux.slashdot.org/article.pl?sid=05/01/12/027210&from=rss /. story] has a bunch of links, so instead of snapping any of them, I'll just link you there.  Finally, some new news.  :-) [BayLink 12-Jan-05]
+
+'''Competitive News:''' -- TiVo does it again: now they'll show you [http://www.wired.com/news/digiwood/0,1412,65853,00.html ads while you're skipping ads].  (Thanks to Micah Wedemeyer on the list.)  [BayLink 29-Nov-04]
+
+'''CVS Changelog:''' -- The summary of the changes (so far) in CVS is available in UnderDevelopment. This is being updated as new commits are in, but it is not guaranteed to reflect ''all'' new features and bugfixes. [TylerDrake 28-Nov-04]
+
+'''Upcoming Hardware:''' -- [http://pchdtv.com pcHDTV] has finally started to offer the HD-3000, a US broadcast HDTV/ATSC capture card that is designed to work with Linux.  Reports also state the card is already compatible with MythTV.  In July of next year a card like this will be illegal to manufacture, as it does *not* support the BroadcastFlag, which allows broadcasters to prevent you from digitally capturing HDTV signals at full resolution.  So get them while you can.  [UPDATE: Some people have received the cards they ordered; no reports of full success yet. [30-Oct-04]
+
+'''Competitive Press:''' -- Even more reasons to [http://slashdot.org/article.pl?sid=04/10/28/1423202 choose MythTV] over TiVo: they're going to feature-reduce even further.  Auto-deletion of pay-per-view recordings whether you like it or not? More from [http://techdirt.com/articles/20041028/0848220.shtml TechDirt] [28-Oct-04]
+
+'''Updates:''' -- Welcome aboard and many thanks to ["nuv2avi"] developer GavinHurlbut for fluffing up our ExternalLinks page, and also to ChrisPetersen, who wrote MythWeb and ["nuvexport"].  [BayLink 21-Oct-04]
+
+There is an archive of OldNews.
+----
+= About MythTV - What is it? =
+
+MythTV is a OpenSource PVR software package that runs under Linux.  (With ports to Windows and MacOS underway.)
+
+What's a PVR? A PersonalVideoRecorder.
+
+It provides the ability to:
+ * Watch, pause, fast forward and rewind 'live' TV
+ * Set recordings from a program guide
+ * Watch recordings on different TVs (or computers, or projectors) around the house
+ * Listen to music
+ * Play all kinds of real arcade games
+ * Watch DVDs
+ * Get weather and news from the internet
+
+In other words it lets you build a super-duper home entertainment center.
+
+'''Hardware'''
+
+Required HardWare & SoftWare for Mythtv
+
+'''Installing mythtv'''
+
+To Install mythtv Check out InstallingMythtv
+
+----
+
+
+== How to ==
+
+This section provides "how to" information or what you might consider mini-guides about certain features or functions related to MythTV.
+
+You can browse a [wiki:CategoryHowTo complete list of HOWTOs], but here are some to start:
+ * DataDirectHowTo: Important information on utilizing the zap2it Data Direct service with MythTV 0.14
+ * DigitalSoundHowTo :  Audio Troubleshooting - Digital Sound (S/PDIF) and ALSA information
+ * ArchiveRecordingsToDvdHowTo : Archiving recordings to DVD
+ * DvdToDvdBackupHowTo : Backing up DVDs
+ * MythTvDevelopmentHowTo : Contributing to MythTV development
+ * BtaudioHowTo : Configuring btaudio module
+ * SoftwareSuspend2HowTo : Using swsusp2 to hibernate your MythTV box
+ * UpgradeToCvsHowTo : Upgrade to CVS from ATRPMs
+ * SystemLedsRecordingStatusHowTo : Using your Power LED and HDD LED to see if your Myth is recording
+ * ShutdownWakeupHowTo : How to use built in power saving features
+ * DigitalTvHowto : How to get MythTV working with DVB devices
+
+== Random ==
+Pages with random thoughts:
+
+ * LittleGems : A list of completely unrelated but handy MythTV tidbits
+ * UserWishList : Have a good idea? Add it to the list. It would be nice if you could back it up with some discussion somewhere.
+ * ExternalLinks : General MythTV related links
+ * MythTvErrata : Known bugs and workarounds
+ * WhatsNew : What's coming up for the next release of MythTV.
+ * FortuneCookies : Contains a list of those little texts that appears at the top of this page.
+
+And if you've found a nagging bug, check [http://www.mythtv.org/bugs/ MythTV Bugzilla] to inform the developers.
+
+== People ==
+
+And, maybe most of all MythPeople, who use MythTV and the [wiki:MUG places] that have people using it.
+
+== Questions and Answers ==
+
+There is a /CommentPage for Wiki contributors to ask and answer questions.
